@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 56.33 sec <<< FAILURE! - in TestSuite
+submitAjaxForm(com.automation.testcases.AjaxFormSubmitPageTest)  Time elapsed: 11.117 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //input[@id='btn-submit' and @value='submitt']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'HIBAIL56712', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bbanduch\AppData\Local\Temp\rust_mozprofile.utC5Yy0TrIm1, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=1440.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 7fd56ad2-eec1-45c4-a424-ca1b1a95b264
+*** Element info: {Using=xpath, value=//input[@id='btn-submit' and @value='submitt']}
+	at com.automation.testcases.AjaxFormSubmitPageTest.submitAjaxForm(AjaxFormSubmitPageTest.java:68)
+
